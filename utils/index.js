@@ -21,11 +21,16 @@ const getLeftToRightDiagonal = (m) => {
 
 const reverseString = (string) => string.split('').reverse().join('');
 const getRightToLeftDiagonal= (m) => getLeftToRightDiagonal(reverseMatrix(m));
-
-
 const reverseMatrix = (m) => m.map((string) => reverseString(string));
+const  handleError = (error, res) => { 
+    res.status(500).json({
+        message: 'An error acurred',
+        error
+    });
+};
 
 module.exports = {
     getLeftToRightDiagonal,
-    getRightToLeftDiagonal
+    getRightToLeftDiagonal,
+    handleError
 };
