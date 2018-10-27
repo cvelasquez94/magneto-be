@@ -1,0 +1,36 @@
+{
+    "extends": [
+      "eslint:recommended"
+    ],
+    "env": {
+      "es6": true
+    },
+    "rules": {
+      "indent": [
+        "error",
+        4,
+        {
+          "SwitchCase": 1
+        }
+      ],
+      "linebreak-style": 0,
+      "eol-last": [
+        "error"
+      ],
+      "quotes": [
+        "error",
+        "single"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-var": [
+        "error"
+      ],
+      "prefer-const": [
+        "error"
+      ],
+      "max-len": ["error", 120]
+    }
+  }
