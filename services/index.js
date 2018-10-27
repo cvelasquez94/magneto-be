@@ -11,4 +11,4 @@ const verifiedData = dna =>  checkMatrix(dna).concat(checkMatrixRight(dna)).conc
 
 module.exports = {
     verifiedData
-}
+};

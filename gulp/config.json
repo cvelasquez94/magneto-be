@@ -1,0 +1,14 @@
+{
+    "eslint": {
+      "src": [
+        "gulp/**/*.js",
+        "routes/*.js",
+        "services/*.js",
+        "utils/*.js",
+        "./index.js",
+        "./app.js",
+        "./gulpfile.js"
+      ]
+    }
+}
+  
